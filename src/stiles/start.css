@@ -1,0 +1,129 @@
+.animated-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Bienvenido a */
+.welcome-text {
+    display: inline;
+    font-size: clamp(32px, 7vw, 50px);
+    color: white;
+}
+
+/* MARKET SERVICE */
+.highlight-text {
+    display: inline;
+    color: #1E40AF;
+    font-size: clamp(40px, 11vw, 70px);
+    font-weight: 800;
+    text-shadow: 0 0 15px rgba(30, 64, 175, 0.6);
+}
+
+/* En móvil: rompe línea y baja MARKET SERVICE */
+@media (max-width: 768px) {
+    .welcome-text {
+        display: block;
+        font-size: clamp(28px, 8vw, 36px);
+        margin-bottom: 15px;
+    }
+
+    .mobile-break {
+        display: block !important;
+    }
+
+    .highlight-text {
+        display: block;
+        font-size: clamp(42px, 13vw, 68px);
+        /* nunca se sale */
+        margin-top: 10px;
+        /* cuánto baja */
+        line-height: 1.1;
+        word-break: break-word;
+        /* por si acaso */
+    }
+}
+
+/* Ocultar el <br> en escritorio */
+.mobile-break {
+    display: none;
+}
+
+/* Título alineado y responsivo */
+.animated-title {
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 1.2;
+    font-size: clamp(36px, 8vw, 60px);
+    font-weight: 700;
+    margin: 0 auto 20px;
+}
+
+/* Máquina de escribir: solo MARKET SERVICE */
+.typewriter {
+    color: #1E40AF;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #1E40AF;
+    width: 0;
+    animation: 
+        typing 2.8s steps(14) forwards,
+        blink-caret 0.75s step-end infinite;
+
+    /* Efecto neón suave */
+    text-shadow: 
+        0 0 10px rgba(30, 64, 175, 0.6),
+        0 0 20px rgba(30, 64, 175, 0.3);
+}
+
+/* Animaciones */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 14ch; } /* exactamente 14 caracteres */
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #1E40AF; }
+}
+
+/* Cursor parpadeante */
+.cursor {
+    display: inline-block;
+    margin-left: 2px;
+    animation: blink 0.7s infinite;
+    color: #1E40AF;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Quitar el cursor al final (elegante) */
+.typewriter::after {
+    content: '';
+    border-right: 3px solid #1E40AF;
+    animation: remove-cursor 0.1s forwards 3s;
+}
+
+@keyframes remove-cursor {
+    to { border-right-color: transparent; }
+}
+
+/* Responsive extra para móviles */
+@media (max-width: 768px) {
+    .animated-title {
+        font-size: 36px !important;
+    }
+    .typewriter {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .animated-title {
+        font-size: 32px !important;
+    }
+}
