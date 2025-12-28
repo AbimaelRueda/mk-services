@@ -38,9 +38,9 @@ export default function Start() {
                     objectFit: 'cover',
                 }}
             >
-                <source src="../../public/video/principalV2.mp4" type="video/mp4" media="(max-width: 768px)" />
-                <source src="../../public/video/principal1.mp4" type="video/mp4" />
-                <source src="../../public/video/principal2.mp4" type="video/mp4" />
+                <source src="/video/principalV2.mp4" type="video/mp4" media="(max-width: 768px)" />
+                <source src="/video/principal1.mp4" type="video/mp4" />
+                <source src="/video/principal2.mp4" type="video/mp4" />
             </video>
             <div style={{ position: 'relative', zIndex: 3, width: '100%', maxWidth: '1000px', padding: '0 20px' }}>
                 <h1 className="animated-title" style={{ margin: '0 auto 30px', lineHeight: '1.2' }}>

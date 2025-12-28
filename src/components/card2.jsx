@@ -32,9 +32,9 @@ function ServiceCard2({ title }) {
                     zIndex: 1,
                 }}
             >
-                <source src="../../public/video/card1v.mp4" type="video/mp4" media="(max-width: 768px)" />
-                <source src="../../public/video/card1h.mp4" type="video/mp4" />
-                <source src="../../public/video/principal2.mp4" type="video/mp4" />
+                <source src="/video/card1v.mp4" type="video/mp4" media="(max-width: 768px)" />
+                <source src="/video/card1h.mp4" type="video/mp4" />
+                <source src="/video/principal2.mp4" type="video/mp4" />
             </video>
             <div
                 style={{
