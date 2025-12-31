@@ -51,8 +51,8 @@ function ServiceCard2({ title }) {
                 style={{
                     position: 'relative',
                     zIndex: 3,
-                    padding: '100px',
-                    textAlign: 'right',
+                    padding: '40px',
+                    textAlign: 'left',
                     color: 'white',
                 }}
             >
@@ -75,7 +75,7 @@ function ServiceCard2({ title }) {
                         maxWidth: '420px',
                     }}
                 >
-                    Ofrezco desarrollo de sitios web personalizados y soluciones de automatización e integración de sistemas para optimizar procesos empresariales y mejorar la eficiencia operativa.
+                    Mantenimiento en periodos mensuales o según la necesidad, para asegurar que tu sitio web y sistemas tecnológicos funcionen de manera óptima y segura.
                 </p>
             </div>
             <style>{`

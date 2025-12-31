@@ -19,9 +19,6 @@ export default function Service() {
             }}
         >
             <h2 style={{ fontSize: '42px', marginBottom: '20px' }}>Nuestros Servicios</h2>
-            <p style={{ fontSize: '18px', maxWidth: '600px', margin: '0 auto 30px',  textAlign: 'center', }}>
-                Ofrecemos diseño web, desarrollo front-end, optimización SEO y mantenimiento continuo.
-            </p>
             <div className="service-grid"
                 style={{
                     gap: '20px',
