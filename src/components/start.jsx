@@ -62,18 +62,6 @@ export default function Start() {
                     En Market Service, creemos en el poder de la innovación digital para
                     transformar ideas en realidades.
                 </p>
-                <div
-                    style={{
-                        display: 'flex',
-                        gap: '40px',
-                        justifyContent: 'center',
-                        marginTop: '50px',
-                        flexWrap: 'wrap',
-                    }}
-                >
-                    {/* <Mision />
-                    <Values /> */}
-                </div>
             </div>
         </section>
     );
