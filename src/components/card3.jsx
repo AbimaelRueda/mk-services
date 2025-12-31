@@ -9,7 +9,7 @@ function ServiceCard2({ title }) {
                 cursor: 'pointer',
                 transition: 'transform 0.3s ease',
                 display: 'flex',
-                alignItems: 'flex-end',
+                alignItems: 'center',
             }}
             onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.02)')}
             onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
@@ -49,11 +49,13 @@ function ServiceCard2({ title }) {
             {/* CONTENIDO */}
             <div
                 style={{
-                    position: 'relative',
+                    position: 'absolute',
+                    top: '50%',
+                    left: '0px',
+                    transform: 'translateY(-50%)',
                     zIndex: 3,
-                    padding: '40px',
-                    textAlign: 'left',
                     color: 'white',
+                    maxWidth: '420px',
                 }}
             >
                 <h3
@@ -72,7 +74,7 @@ function ServiceCard2({ title }) {
                         lineHeight: '1.6',
                         color: '#ddd',
                         margin: 0,
-                        maxWidth: '420px',
+                        maxWidth: '400px',
                     }}
                 >
                     Mantenimiento en periodos mensuales o según la necesidad, para asegurar que tu sitio web y sistemas tecnológicos funcionen de manera óptima y segura.
