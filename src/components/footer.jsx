@@ -160,7 +160,7 @@ export default function Footer() {
 
                         {/* WhatsApp */}
                         <a
-                            href="https://wa.me/2214366411?text=¡Hola!%20Quiero%20consultar%20sobre%20sus%20servicios"
+                            href="https://wa.me/2217191584?text=¡Hola!%20Quiero%20consultar%20sobre%20sus%20servicios"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{
@@ -188,43 +188,44 @@ export default function Footer() {
                         >
                             💬
                         </a>
-                        {/* <div style={{ marginTop: '15px', display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-                            </svg>
-                            <p style={{
-                                margin: '5px 0 0 0', fontSize: '14px', color: '#888',
-                            }}>
-                                angelaguilarmarket@gmail.com
-                            </p>
-                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M10.038 5.316C10.2984 3.41763 8.50467 1.99608 7.13172 2.00306C5.61307 2.01104 3.30564 3.1329 2.55271 3.88583C1.79978 4.63877 0.5 6.5 4.5 10.5C8.5 14.5 10.3612 13.2002 11.1141 12.4473C11.8671 11.6943 12.9889 9.38691 12.9969 7.86826C13.0039 6.49531 11.5824 4.70156 9.684 4.962C9.45201 4.99157 9.21811 5.06224 9 5.17157L7 7L11 11L13 9C13.1094 8.78189 13.1801 8.54799 13.2096 8.316C13.47 6.41763 12.0484 4.62389 10.15 4.884C10.038 5.316 10.038 5.316 10.038 5.316Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                            <p style={{
-                                margin: '5px 0 0 0', fontSize: '14px', color: '#888',
-                            }}>
-                                221 719 1584
-                            </p>
-                        </div> */}
                         <div
                             style={{
                                 marginTop: '15px',
                                 display: 'flex',
                                 alignItems: 'center',
-                                gap: '16px', // un poco más de separación, se ve mejor
-                                flexWrap: 'wrap', // por si en móvil se hace muy angosto
+                                gap: '16px',
+                                flexWrap: 'wrap',
                             }}
                         >
-                            {/* Email */}
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
-                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-                            </svg>
-                            <p style={{
-                                margin: '5px 0 0 0', fontSize: '14px', color: '#888',
-                            }}>
-                                angelaguilarmarket@gmail.com
-                            </p>
+                            <a
+                                href="mailto:angelaguilarmarket@gmail.com"
+                                style={{
+                                    marginTop: '15px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '16px',
+                                    textDecoration: 'none',
+                                }}
+                            >
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    fill="white"
+                                    viewBox="0 0 16 16"
+                                >
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                                </svg>
 
+                                <span
+                                    style={{
+                                        fontSize: '14px',
+                                        color: '#888',
+                                    }}
+                                >
+                                    angelaguilarmarket@gmail.com
+                                </span>
+                            </a>
                             {/* Teléfono */}
                             <div
                                 style={{
@@ -235,26 +236,36 @@ export default function Footer() {
                                     flexWrap: 'wrap',
                                 }}
                             >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="20"
-                                    height="20"
-                                    fill="white"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.11-.21 11.36 11.36 0 0 0 3.54.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.75a1 1 0 0 1 1 1c0 1.22.2 2.42.57 3.54a1 1 0 0 1-.21 1.11l-2.49 2.49z" />
-                                    <path d="M19.07 4.93a1 1 0 0 0-1.41 0l-1.34 1.34a1 1 0 0 0 0 1.41l.88.88a1 1 0 0 0 1.41 0l1.34-1.34a1 1 0 0 0 0-1.41l-.88-.88zM15.54 6.46a1 1 0 0 0-1.41 0l-1.34 1.34a1 1 0 0 0 0 1.41l.88.88a1 1 0 0 0 1.41 0l1.34-1.34a1 1 0 0 0 0-1.41l-.88-.88z" />
-                                </svg>
-
-                                <p
+                                <a
+                                    href="tel:+522217191584"
                                     style={{
-                                        margin: '5px 0 0 0',
-                                        fontSize: '14px',
-                                        color: '#888',
+                                        marginTop: '15px',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '16px',
+                                        textDecoration: 'none',
                                     }}
                                 >
-                                    +52 55 1234 5678
-                                </p>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="20"
+                                        height="20"
+                                        fill="white"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.11-.21 11.36 11.36 0 0 0 3.54.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.75a1 1 0 0 1 1 1c0 1.22.2 2.42.57 3.54a1 1 0 0 1-.21 1.11l-2.49 2.49z" />
+                                        <path d="M19.07 4.93a1 1 0 0 0-1.41 0l-1.34 1.34a1 1 0 0 0 0 1.41l.88.88a1 1 0 0 0 1.41 0l1.34-1.34a1 1 0 0 0 0-1.41l-.88-.88zM15.54 6.46a1 1 0 0 0-1.41 0l-1.34 1.34a1 1 0 0 0 0 1.41l.88.88a1 1 0 0 0 1.41 0l1.34-1.34a1 1 0 0 0 0-1.41l-.88-.88z" />
+                                    </svg>
+
+                                    <span
+                                        style={{
+                                            fontSize: '14px',
+                                            color: '#888',
+                                        }}
+                                    >
+                                        +52 221 719 1584
+                                    </span>
+                                </a>
                             </div>
                         </div>
                     </div>
