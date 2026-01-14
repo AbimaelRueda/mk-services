@@ -1,0 +1,33 @@
+.logo-wrapper {
+    width:9800px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.logo-track {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    animation: scroll 80s linear infinite;
+}
+
+.logo-img {
+    height: 100px;
+    width: auto;
+    flex-shrink: 10;
+}
+
+.logo-wrapper:hover .logo-track {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

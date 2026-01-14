@@ -6,6 +6,7 @@ import ServiceCard3 from './card3'
 import ServiceCard4 from './card4'
 import ServiceCard5 from './card5'
 import ServiceCard6 from './card6'
+import Carousel from './carousel'
 
 export default function Service() {
     return (
@@ -49,6 +50,16 @@ export default function Service() {
                         Creamos experiencias digitales personalizadas para tu negocio.
                     </p>
                 </div>
+            </div>
+            <div
+                style={{
+                    maxWidth: '1000px',
+                    height: '100px',
+                    margin: '40px auto 0px',
+                    overflow: 'hidden',
+                }}
+            >
+                <Carousel />
             </div>
         </section>
     );
