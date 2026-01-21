@@ -31,27 +31,29 @@ export default function Service() {
                 <ServiceCard4 title="⚙️ Automatización y Transformación Digital" />
                 <ServiceCard5 title="📈 Marketing Digital y Posicionamiento" />
                 <ServiceCard6 title="Dashboard y analítica" />
-                <div
-                    style={{
-                        gridColumn: '1 / -1',
-                        backgroundColor: '#ffffff',
-                        padding: '20px',
-                        minHeight: '200px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'center',
-                        textAlign: 'center',
-                    }}
-                >
-                    <h3 style={{ fontSize: '36px', marginBottom: '10px', color: '#000' }}>
-                        Nuestras experiencias
-                    </h3>
-                    <Carousel />
-                    <p style={{ fontSize: '18px', maxWidth: '600px', margin: '30px auto 0', color: '#000' }}>
-                        Creamos experiencias digitales personalizadas para tu negocio.
-                    </p>
-                </div>
             </div>
+
+            <div
+                className="experience-block"
+                style={{
+                    gridColumn: '1 / -1',
+                    backgroundColor: '#ffffff',
+                    padding: '20px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    textAlign: 'center',
+                }}
+            >
+                <h3 style={{ fontSize: '36px', marginBottom: '10px', color: '#000' }}>
+                    Nuestras experiencias
+                </h3>
+                <Carousel />
+                <p style={{ fontSize: '18px', maxWidth: '600px', margin: '30px auto 0', color: '#000' }}>
+                    Creamos experiencias digitales personalizadas para tu negocio.
+                </p>
+            </div>
+
             {/* <div
                 style={{
                     maxWidth: '1000px',
