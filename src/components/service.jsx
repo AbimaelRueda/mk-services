@@ -34,24 +34,25 @@ export default function Service() {
                 <div
                     style={{
                         gridColumn: '1 / -1',
-                        backgroundColor: '#000',
-                        padding: '80px',
-                        minHeight: '350px',
+                        backgroundColor: '#ffffff',
+                        padding: '20px',
+                        minHeight: '200px',
                         display: 'flex',
                         flexDirection: 'column',
                         justifyContent: 'center',
                         textAlign: 'center',
                     }}
                 >
-                    <h3 style={{ fontSize: '36px', marginBottom: '20px' }}>
-                        Soluciones a Medida
+                    <h3 style={{ fontSize: '36px', marginBottom: '10px', color: '#000' }}>
+                        Nuestras experiencias
                     </h3>
-                    <p style={{ fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>
+                    <Carousel />
+                    <p style={{ fontSize: '18px', maxWidth: '600px', margin: '30px auto 0', color: '#000' }}>
                         Creamos experiencias digitales personalizadas para tu negocio.
                     </p>
                 </div>
             </div>
-            <div
+            {/* <div
                 style={{
                     maxWidth: '1000px',
                     height: '100px',
@@ -60,7 +61,7 @@ export default function Service() {
                 }}
             >
                 <Carousel />
-            </div>
+            </div> */}
         </section>
     );
 }

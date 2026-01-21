@@ -1,8 +1,9 @@
 .logo-wrapper {
-    width:9800px;
+    width: 100%;
+    max-width: 1200px;
     height: 150px;
     overflow: hidden;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .logo-track {
@@ -13,10 +14,13 @@
 }
 
 .logo-img {
-    height: 100px;
+    height: 200%;
+    max-height: 200px;
     width: auto;
-    flex-shrink: 10;
+    object-fit: contain;
+    flex-shrink: 0;
 }
+
 
 .logo-wrapper:hover .logo-track {
     animation-play-state: paused;
