@@ -1,37 +1,36 @@
 .logo-wrapper {
     width: 100%;
     max-width: 1200px;
-    height: 150px;
     overflow: hidden;
     margin: 0 auto;
+    padding: 12px 0;
 }
 
 .logo-track {
     display: flex;
     align-items: center;
     gap: 40px;
-    animation: scroll 10s linear infinite;
+    width: max-content;
+    animation: scroll 20s linear infinite;
 }
 
 .logo-img {
-    height: 200%;
-    max-height: 200px;
-    width: auto;
-    object-fit: contain;
-    flex-shrink: 0;
+  height: clamp(70px, 10vw, 130px);
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
 }
-
 
 .logo-wrapper:hover .logo-track {
     animation-play-state: paused;
 }
 
 @keyframes scroll {
-    0% {
+    from {
         transform: translateX(0);
     }
 
-    100% {
+    to {
         transform: translateX(-50%);
     }
 }

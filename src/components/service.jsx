@@ -53,17 +53,6 @@ export default function Service() {
                     Creamos experiencias digitales personalizadas para tu negocio.
                 </p>
             </div>
-
-            {/* <div
-                style={{
-                    maxWidth: '1000px',
-                    height: '100px',
-                    margin: '40px auto 0px',
-                    overflow: 'hidden',
-                }}
-            >
-                <Carousel />
-            </div> */}
         </section>
     );
 }
