@@ -15,10 +15,10 @@
 }
 
 .logo-img {
-  height: clamp(70px, 10vw, 130px);
-  width: auto;
-  object-fit: contain;
-  flex-shrink: 0;
+    height: clamp(70px, 10vw, 130px);
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 .logo-wrapper:hover .logo-track {

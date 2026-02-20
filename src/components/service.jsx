@@ -6,6 +6,8 @@ import ServiceCard3 from './card3'
 import ServiceCard4 from './card4'
 import ServiceCard5 from './card5'
 import ServiceCard6 from './card6'
+import ServiceCard7 from './card7'
+import ServiceCard8 from './card8'
 import Carousel from './carousel'
 
 export default function Service() {
@@ -31,11 +33,14 @@ export default function Service() {
                 <ServiceCard4 title="⚙️ Automatización y Transformación Digital" />
                 <ServiceCard5 title="📈 Marketing Digital y Posicionamiento" />
                 <ServiceCard6 title="Dashboard y analítica" />
+                <ServiceCard7 title="📈 Diseño gráfico, Impresiones o Rotulaciones " />
+                <ServiceCard8 title="Diseño a la realidad" />
             </div>
 
             <div
                 className="experience-block"
                 style={{
+                    marginTop: '60px',
                     gridColumn: '1 / -1',
                     backgroundColor: '#ffffff',
                     padding: '20px',
